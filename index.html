@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./assets/Favicon.png"/>
+    <title>Meibak - Portfolio</title>
+
+    <!--==========CSS==========-->
+    <link rel="stylesheet" type="text/css" href="./style.css">
+
+    <!--==========Link Swiper's CSS==========-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!--==========Mixitup==========-->
+    <script defer src="./js/mixitup.min.js"></script>
+
+    <!--==========JS==========-->
+    <script defer src="./js/script.js"></script>
+
+    <!--==========Email Js==========-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+
+</head>
+
+<body>
+    <!--==========Header==========-->
+    <header id="header">
+        <img class="header-image" src="./assets/Logo-grey.png" alt="website logo">
+        <nav id="nav">
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
+                aria-expanded="false">
+                <span id="hamburger"></span>
+            </button>
+            <ul id="menu" role="menu">
+                <li><a href="#hello">Hello</a></li>
+                <li><a href="#frameworks">Skills</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <div class="header-socials">
+                    <a href="https://github.com/arthurmeibak" target="_blank" class="header__social-link">
+                        <img class="ri-github-fill" src="./assets/Github-small.png">
+                    </a>
+                    <a href="https://br.linkedin.com/in/arthur-meibak" target="_blank" class="header__social-link">
+                        <img class="ri-linkedin-box-fill" src="./assets/LinkedIn-small.png">
+                    </a>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!--==========Home==========-->
+    <main class="content" id="main-container">
+
+        <section class="content-home" id="home">
+            <div class="about-data-wrapper">
+                <div class="home-data-wrapper">
+                    <div class="home-data">
+                        <h1 class="slide-in home-name">Arthur Meibak_</h1>
+                        <p class="slide-in home-work">frontend developer; QA-engineer</p>
+                    </div>
+                    <div class="about">
+                        <p class="slide-in hello-details text-lg">I am a software engineer able to build a Web presence
+                            from
+                            the
+                            ground
+                            up
+                            - from concept, navigation, layout and programming to UX and SEO. Skilled at writing
+                            well-designed,
+                            testable and efficient code using current best practices in Web development.
+                        </p>
+                        <a href="C:\Users\arthu\Projects\Portfolio\img\John-Cv.pdf"
+                            class="slide-in button button--flex text-sm"><i class="ri-download-line"></i>DOWNLOAD CV</a>
+                    </div>
+                </div>
+            </div>
+
+            <img class="slide-in profile-photo" src="./assets/Arthur-photo.png" alt="my photo">
+
+        </section>
+
+        <!--==========Frameworks==========-->
+        <section class="frameworks" id="frameworks">
+            <h2 class="section-title">Skills & Power-ups_</h2>
+
+            <section class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="card swiper-slide">
+                        <div class="card__image">
+                            <img class="image" src="./assets/HTML.png" alt="HTML icon">
+                            <p class="image-description">HTML 5</p>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="card__image">
+                            <img class="image" src="./assets/CSS.png" alt="CSS icon">
+                            <p class="image-description">CSS 3</p>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="card__image">
+                            <img class="image" src="./assets/JS.png" alt="JavaScript icon">
+                            <p class="image-description">JavaScript</p>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="card__image">
+                            <img class="image" src="./assets/React.png" alt="React icon">
+                            <p class="image-description">React</p>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="card__image">
+                            <img class="image" src="./assets/Github.png" alt="Github icon">
+                            <p class="image-description">Github</p>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="card__image">
+                            <img class="image" src="./assets/Sass.png" alt="Sass icon">
+                            <p class="image-description">Sass</p>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="card__image">
+                            <img class="image" src="./assets/Bootstrap.png" alt="Bootstrap icon">
+                            <p class="image-description">Bootstrap</p>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="card__image">
+                            <img class="image" src="./assets/VSCode.png" alt="VS Code icon">
+                            <p class="image-description">VS Code</p>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="card__image">
+                            <img class="image" src="./assets/Git.png" alt="VS Code icon">
+                            <p class="image-description">Git</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+        </section>
+
+        <!--==========Resume==========-->
+        <section class="resume container" id="resume">
+            <h2 class="slide-in section-title">Resume_</h2>
+
+            <div class="resume__container grid">
+                <div class="slide-in resume__data-education">
+                    <h3 class="resume__title text-sm">EDUCATION</h3>
+
+                    <div class="resume__item">
+                        <h3 class="resume__subtitle text-sm">UNIVERSITY OF SAO PAULO</h3>
+                        <p class="resume__date text-sm">2011 - 2014</p>
+                        <p class="resume__description text-lg">Bachelor International Relations</p>
+                    </div>
+
+                    <div class="resume__item">
+                        <h3 class="resume__subtitle text-sm">CODECADEMY</h3>
+                        <p class="resume__date text-sm">2022</p>
+                        <p class="resume__description text-lg">JavaScript Course</p>
+                    </div>
+
+                    <div class="resume__item">
+                        <h3 class="resume__subtitle text-sm">CODECADEMY</h3>
+                        <p class="resume__date text-sm">2022</p>
+                        <p class="resume__description text-lg">CSS Course</p>
+                    </div>
+                </div>
+
+                <div class="slide-in resume__data-employment">
+                    <h3 class="resume__title text-sm">EMPLOYMENT</h3>
+
+                    <div class="resume__item">
+                        <h3 class="resume__subtitle text-sm">PUBLIC PROSECUTION OFFICE - SAO PAULO</h3>
+                        <p class="resume__date text-sm">2019 - 2023</p>
+                        <p class="resume__description text-lg">Marketing Analyst</p>
+                    </div>
+
+                    <div class="resume__item">
+                        <h3 class="resume__subtitle text-sm">BRAZIL TRANSPARENCY</h3>
+                        <p class="resume__date text-sm">2014 - 2019</p>
+                        <p class="resume__description text-lg">Data Analyst</p>
+                    </div>
+
+                    <div class="resume__item">
+                        <h3 class="resume__subtitle text-sm">UVOCORP</h3>
+                        <p class="resume__date text-sm">2012 - 2014</p>
+                        <p class="resume__description text-lg">Senior Translator</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+        </section>
+
+        <!--==========Portfolio==========-->
+        <section class="work section container" id="portfolio">
+            <h2 class="slide-in section-title">Recent Work_</h2>
+
+            <div class="slide-in project__categories">
+                <button class="category__btn text-xs active-work" data-filter="all">
+                    ALL
+                </button>
+                <button class="category__btn text-xs" data-filter=".web">
+                    WEB-SITES
+                </button>
+                <button class="category__btn text-xs" data-filter=".landing">
+                    LANDING PAGES
+                </button>
+            </div>
+
+            <div class="slide-in projects__container grid">
+
+                
+                <div class="project__item grid mix landing">
+                    <a href="https://arthurmeibak.github.io/website-dondon/" target="_blank">
+                        <img src="./assets/project-Landscape.png" alt="" class="project__img">
+                    </a>
+
+                    <div class="project__data">
+                        <h3 class="project__title text-lg">
+                            LANDING PAGE FOR LANDSCAPE ARCHITECT 
+                        </h3>
+                        <p class="project__description">
+                            Landing page for an Landscape Architect based in Stuttgart, Germany.
+                            This website is based on the minimalist approach and visual hierarchy 
+                            spiced with motion. The main goal was to keep it simple 
+                            and straightforward.
+                        </p>
+                        <h4 class="project__stack text-xs">USED STACK:</h4>
+                        <ul class="tags text-sm">
+                            <li>html5</li>
+                            <li>css3</li>
+                            <li>JavaScript</li>
+                            <li>VSCode</li>
+                            <li>Github</li>
+                            <li>Figma</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="project__item grid mix landing">
+                    <a href="https://arthurmeibak.github.io/hospital/" target="_blank">
+                        <img src="./assets/project-hospital.png" alt="" class="project__img">
+                    </a>
+
+                    <div class="project__data">
+                        <h3 class="project__title text-lg">
+                            HEALTH CARE LANDING PAGE
+                        </h3>
+                        <p class="project__description">
+                            This is a landing page for a medical center. The main goal was to make 
+                            this page convenient. With that in mind, we divided all the information 
+                            into several blocks. Also, the combination of convenient functionality 
+                            and clear design provides the best user experience - providing visitors 
+                            with straightforward information in an easy way. 
+                            
+                        </p>
+                        <h4 class="project__stack text-xs">USED STACK:</h4>
+                        <ul class="tags text-sm">
+                            <li>html5</li>
+                            <li>css3</li>
+                            <li>JavaScript</li>
+                            <li>VSCode</li>
+                            <li>Github</li>
+                            <li>Figma</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="project__item grid mix web">
+                    <a href="https://arthurmeibak.github.io/marvel-mobile/" target="_blank">
+                        <img src="./assets/project-Marvel.png" alt="" class="project__img">
+                    </a>
+
+                    <div class="project__data">
+                        <h3 class="project__title text-lg">
+                            MOBILE APP FOR VIDEO STREAMING
+                        </h3>
+                        <p class="project__description">
+                            Here is my exploration of the streaming mobile app concept. 
+                            This app is about movies and series. It provides you with the 
+                            possibility of choosing what categories of videos you would like to see.
+                        </p>
+                        <h4 class="project__stack text-xs">USED STACK:</h4>
+                        <ul class="tags text-sm">
+                            <li>html5</li>
+                            <li>css3</li>
+                            <li>JavaScript</li>
+                            <li>VSCode</li>
+                            <li>Github</li>
+                            <li>Figma</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+
+        <!--==========Contact==========-->
+        <section class="contact section" id="contact">
+            <div class="contact__content container">
+                <h2 class="slide-in section-title">Get in touch_</h2>
+
+                <div class="contact__container grid">
+                </div>
+
+                <div class="slide-in contact__form">
+                    <p class="contact__form-title">Just write me a letter here_</p>
+
+                    <form action="" id="contact-form">
+                        <div class="contact__input-div">
+                            <input type="text" name="name" placeholder="Your name" class="contact__input"
+                                id="contact-name">
+                        </div>
+
+                        <div class="contact__input-div">
+                            <input type="email" name="email" placeholder="Your e-mail" class="contact__input"
+                                id="contact-email">
+                        </div>
+
+                        <div class="contact__input-div">
+                            <textarea name="message" placeholder="Type the message here" class="contact__input textarea"
+                                id="message" cols="30" rows="10"></textarea>
+                        </div>
+
+                        <p class="contact__message text-sm" id="contact-message"></p>
+
+                        <button type="submit" class="button contact__button">
+                            SEND
+                        </button>
+                    </form>
+
+                </div>
+            </div>
+            </div>
+        </section>
+
+
+        <footer class="footer" id="contact">
+            <nav class="footer-infos">
+                <img class="footer-image" src="./assets/Logo-grey.png" alt="logo">
+                <div class="footer-wrapper">
+                    <p class="footer-infos-phone">+49 (176) 7539 3455</p>
+                    <p class="footer-infos-email">arthurmeibak@gmail.com</p>
+                    <div class="footer-socials">
+                        <a href="https://github.com/arthurmeibak" class="footer-social-github"><img
+                                src="./assets/Github-small.png"></a>
+                        <a href="https://br.linkedin.com/in/arthur-meibak" class="footer-social-linkedin"><img
+                                src="./assets/LinkedIn-small.png"></a>
+                    </div>
+                </div>
+            </nav>
+            <nav class="footer-anchors">
+                <a href="#home" class="footer-anchor">Hello</a>
+                <a href="#frameworks" class="footer-anchor">Frameworks</a>
+                <a href="#resume" class="footer-anchor">Resume</a>
+                <a href="#portfolio" class="footer-anchor">Portfolio</a>
+            </nav>
+        </footer>
+    </main>
+</body>
+
+</html>
