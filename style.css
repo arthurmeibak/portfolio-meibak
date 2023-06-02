@@ -286,6 +286,7 @@ input {
 .category__btn {
     color: #fff;
     position: relative;
+    font-size: 16px;
 }
 
 .category__btn:hover {
@@ -639,6 +640,18 @@ input {
     #nav.active #hamburger::after {
         transform: rotate(-135deg);
         top: -7px;
+    }
+
+    .section-title {
+        font-size: 32px
+    }
+
+    .home-name {
+        font-size: 42px !important;
+    }
+    
+    .home-work {
+        font-size: 28px !important;
     }
 
     .resume__container {
