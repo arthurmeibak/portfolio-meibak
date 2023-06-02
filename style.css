@@ -62,7 +62,7 @@ input {
 }
 
 .section-title {
-    font-size: 28px;
+    font-size: 42px;
     margin-bottom: 30px;
 }
 
@@ -114,10 +114,6 @@ input {
     column-gap: 200px;
 }
 
-.home-name {
-    font-size: 42px;
-}
-
 .home-data-wrapper {
     max-width: 800px;
 }
@@ -130,6 +126,16 @@ input {
     margin-top: 40px;
 }
 
+.home-name {
+    font-size: 56px;
+    margin-bottom: 5px;
+}
+
+.home-work {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
 .about {
     display: flex;
     flex-direction: column;
@@ -140,17 +146,14 @@ input {
 .hello-details {
     font-size: 18px;
     text-align: start;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .about-data-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
-
-.hello-details {
-    margin-bottom: 10px;
 }
 
 .button {
