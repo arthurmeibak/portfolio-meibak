@@ -656,6 +656,11 @@ input {
         margin-top: 0;
     }
 
+     .hello-details {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
     .profile-photo {
         margin-top: 0;
     }
